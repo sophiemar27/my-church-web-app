@@ -1,0 +1,1 @@
+web: gunicorn mount_tsion_project.wsgi --log-file -
