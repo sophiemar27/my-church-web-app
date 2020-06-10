@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 
 
@@ -38,7 +39,9 @@ export default class SingleEvent extends React.Component {
             <div>{this.state.place}</div>
             <div>{this.state.description}</div>
             <div>{this.state.event_cost}</div>
+            <Link to={`/event_register`} >
             <div>Register</div>
+            </Link>
         </div>)
     }
 }
