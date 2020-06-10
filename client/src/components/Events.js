@@ -1,0 +1,50 @@
+import React from 'react'
+import axios from 'axios'
+import { Link } from 'react-router-dom'
+
+export default class Event extends React.Component {
+    state = {
+        event: {
+            image_url: '',
+            type_of_event: '',
+        },
+        allEvents: []
+    }
+
+    
+
+
+    componentDidMount() {
+        this.getAllEvents()
+    }
+ 
+    getAllEvents = async () => {
+        try {
+            const res = await axios.get('/api/v1/event/')
+            const newState = { ...this.state }
+            newState.allEvents = res.data
+            this.setState(newState)
+        } catch (error) {
+            console.log('Failed to get all Events')
+            console.log(error)
+        }
+    }
+
+    render() {
+        return (
+            <div className='all-events'>
+                {this.state.allEvents.map((event, index) => {
+                    return (
+                        <div  key={`jd320kd-${index}`}>
+                            <img src={event.image_url} width="250" />
+                            <div>{event.type_of_event}</div>
+                            <Link to={`/single_event`} >
+                                <div>Register</div>
+                            </Link>
+                        </div>
+                    )
+                })}
+            </div>
+        )
+    }
+}
