@@ -39,7 +39,7 @@ export default class SingleEvent extends React.Component {
             <div>{this.state.place}</div>
             <div>{this.state.description}</div>
             <div>{this.state.event_cost}</div>
-            <Link to={`/event_register`} >
+            <Link to={`/event_register/${this.state.id}`} >
             <div>Register</div>
             </Link>
         </div>)

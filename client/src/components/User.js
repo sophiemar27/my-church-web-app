@@ -15,6 +15,7 @@ export default class User extends Component {
             zip_code: '',
             age: '',
             gender: '',
+            event: this.props.match.params.eventId
            
         },
 
@@ -60,7 +61,7 @@ export default class User extends Component {
     render() {
         return (
             <div>
-                <h1></h1>
+                <h1>Event Registeration Form</h1>
 
                 <form onSubmit={this.onSubmit}>
                     <div>
