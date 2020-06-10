@@ -2,11 +2,11 @@ from rest_framework import serializers
 
 from .models import Event, User, Register, Course
 
+
 class CourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
         fields = '__all__'
-
 
 class RegisterSerializer(serializers.ModelSerializer):
     class Meta:

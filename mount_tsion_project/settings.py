@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mount_tsion_database',
-        'USER': 'mount_tsion',
+        'USER': 'abel',
         'PASSWORD': 'password',
         'HOST': 'localhost'
     }

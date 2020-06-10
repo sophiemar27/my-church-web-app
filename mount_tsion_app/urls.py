@@ -5,10 +5,10 @@ from . import views
 
 router = routers.DefaultRouter()
 
-router.register('User', views.UserView)
-router.register('Event', views.EventView)
-router.register('Register', views.RegisterView)
-router.register('Course', views.CourseView)
+router.register('user', views.UserView)
+router.register('event', views.EventView)
+router.register('register', views.RegisterView)
+router.register('course', views.CourseView)
 
 
 urlpatterns = [

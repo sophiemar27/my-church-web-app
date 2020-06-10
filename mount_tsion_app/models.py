@@ -30,6 +30,17 @@ class User(models.Model):
     def __str__(self):
         return self.full_name
 
+class Course(models.Model):
+    course = models.CharField(max_length=255)
+    date = models.CharField(max_length=100)
+    how_often = models.CharField(max_length=200)
+    time = models.CharField(max_length=200)
+    
+        
+
+    def __str__(self):
+        return self.course
+
 
 class Register(models.Model):
     full_name = models.CharField(max_length=255)
@@ -42,6 +53,8 @@ class Register(models.Model):
     age = models.CharField(max_length=100)
     gender = models.CharField(max_length=100)
     grade = models.CharField(max_length=100)
+    course = models.ForeignKey(
+        Course, on_delete=models.CASCADE, related_name='registerations')
     
 
 
@@ -49,17 +62,7 @@ class Register(models.Model):
         return self.full_name
 
 
-class Course(models.Model):
-    course = models.CharField(max_length=255)
-    date = models.CharField(max_length=100)
-    how_often = models.CharField(max_length=200)
-    time = models.CharField(max_length=200)
-    student = models.ForeignKey(
-        Register, on_delete=models.CASCADE, related_name='courses')
-        
 
-    def __str__(self):
-        return self.course
 
 
     
