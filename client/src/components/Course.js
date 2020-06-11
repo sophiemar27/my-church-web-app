@@ -40,7 +40,7 @@ export default class Course extends React.Component {
                             <div>{course.date}</div>
                             <div>{course.how_often}</div>
                             <div>{course.time}</div>
-                            <Link to={`/register`} >
+                            <Link to={`/single_course/${course.id}`} >
                                 <div>Register</div>
                             </Link>
                         </div>

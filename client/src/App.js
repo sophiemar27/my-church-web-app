@@ -13,6 +13,7 @@ import  Register from './components/Register.js'
 import Event from './components/Events.js'
 import SingleEvent from './components/SingleEvent.js'
 import User from './components/User.js'
+import SingleCourse from './components/SingleCourse.js'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/course/" component={Course} />
+          <Route exact path="/single_course/:courseId" component={SingleCourse} />
           <Route exact path="/register/:courseId" component={Register} />
           <Route exact path="/all_event" component={Event} />
           <Route exact path="/single_event/:eventId" component={SingleEvent} />

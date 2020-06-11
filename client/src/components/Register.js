@@ -157,7 +157,7 @@ export default class Register extends Component {
                     <div>
                         <label htmlFor="gender"></label>
                         <input className='input'
-                            placeholder="Gender"
+                            placeholder="sex"
                             type="text"
                             name="gender"
                             value={this.state.newStudent.gender}
