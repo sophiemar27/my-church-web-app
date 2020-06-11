@@ -12,9 +12,10 @@
  ![ERD Image](client/public/erd.png)
 
  # Wireframe
+ * Home page
 ![Wireframe Image](client/public/homepage.png)
   ---
-<!-- ![Wireframe Image](client/public/allevents.png)
+![Wireframe Image](client/public/allevents.png)
     ---
 ![Wireframe Image](client/public/singleEvent.png)
     ---
@@ -24,7 +25,7 @@
     ---
 ![Wireframe Image](client/public/singleCourse.png)
     ---
-![Wireframe Image](./client/public/regisForm.png) -->
+![Wireframe Image](./client/public/regisForm.png)
  
  # Publicly Deployed App
  Click [here](https://mount-tsion-app.herokuapp.com/admin/) to visit the app.
