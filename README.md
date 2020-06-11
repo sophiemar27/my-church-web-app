@@ -9,7 +9,7 @@
  * Students can select event and register.
 
  # ERD
- [ERD Image](client/public/erd.png)
+ ![ERD Image](client/public/erd.png)
  
  # Publicly Deployed App
  Click [here](https://mount-tsion-app.herokuapp.com/admin/) to visit the app.
