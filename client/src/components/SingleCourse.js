@@ -30,14 +30,14 @@ export default class SingleCourse extends React.Component {
 
     render() {
         return (<div>
-           
-            <img src={this.state.image_url} width="500" />
-            <h3>{this.state.type_of_course}</h3>
-            <div>{this.state.course_date}</div>
-            <div>{this.state.place}</div>
-            <div>{this.state.description}</div>
-            <div>{this.state.course_cost}</div>
-            <Link to={`/course_register/${this.state.id}`} >
+           <div>Single Course</div>
+            
+            <h3>{this.state.course}</h3>
+            <div>{this.state.date}</div>
+            <div>{this.state.how_often}</div>
+            <div>{this.state.time}</div>
+            
+            <Link to={`/register/${this.state.id}`} >
             <div>Register</div>
             </Link>
         </div>)
