@@ -12,3 +12,5 @@
  
  # Publicly Deployed App
  Click [here](https://mount-tsion-app.herokuapp.com/admin/) to visit the app.
+# Prject Planning Board
+Click [here](https://github.com/sophiemar27/my-church-web-app/projects/1) to see project planning board.
