@@ -14,17 +14,17 @@
  # Wireframe
  * Home page
 ![Wireframe Image](client/public/homepage.png)
-  ---
+  
 ![Wireframe Image](client/public/allevents.png)
-    ---
+    
 ![Wireframe Image](client/public/singleEvent.png)
-    ---
+    
 ![Wireframe Image](./client/public/eventForm.png)
-    ---
+    
 ![Wireframe Image](client/public/allCourses.png)
-    ---
+    
 ![Wireframe Image](client/public/singleCourse.png)
-    ---
+    
 ![Wireframe Image](./client/public/regisForm.png)
  
  # Publicly Deployed App
