@@ -22,7 +22,8 @@ function App() {
       <h1></h1>
 
       <Router>
-      <nav className="nav-bar">
+      
+        <nav className="nav-bar">
           {/* <Link to="/">
           <i className="material-icons logo">
           Hope
@@ -39,8 +40,14 @@ function App() {
           <Link to="/course">
             <div className="link-item">Courses</div>
           </Link>
+          <Link to="">
+            <div className="link-item">Services</div>
+          </Link>
           
-        </nav>
+
+          
+          </nav>
+       <div className='text_container'>
         <Switch>
           <Route exact path="/home" component={Home} />  
           <Route exact path="/course/" component={Course} />
@@ -50,6 +57,7 @@ function App() {
           <Route exact path="/single_event/:eventId" component={SingleEvent} />
           <Route exact path="/event_register/:eventId" component={User} />
         </Switch>
+      </div>
       </Router>
 
     </div>
