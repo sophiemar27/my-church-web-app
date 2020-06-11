@@ -7,3 +7,8 @@
  * Students can see all the classes that the church offers and events.
  * Students can select class and register.
  * Students can select event and register.
+
+ 
+ 
+ # Publicly Deployed App
+ Click [here](https://mount-tsion-app.herokuapp.com/admin/) to visit the app.
