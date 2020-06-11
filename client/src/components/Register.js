@@ -15,7 +15,8 @@ export default class Register extends Component {
             zip_code: '',
             age: '',
             gender: '',
-            grade: ''
+            grade: '',
+            course: this.props.match.params.courseId
         },
 
     }
