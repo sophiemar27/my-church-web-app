@@ -64,7 +64,7 @@ export default class Register extends Component {
             <div>
                 <h1>Student Enrollement Form</h1>
 
-                <form onSubmit={this.onSubmit}>
+                <form className='enroll-form' onSubmit={this.onSubmit}>
                     <div>
                         <label htmlFor="full_name"></label>
                         <input className='input'

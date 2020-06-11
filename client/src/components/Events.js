@@ -37,7 +37,7 @@ export default class Event extends React.Component {
                     return (
                         <div  key={`jd320kd-${index}`}>
                             <Link to={`/single_event/${event.id}`} >
-                            <img src={event.image_url} width="250" />
+                            <img className='event-img'  src={event.image_url} width="230" />
                             <div>{event.type_of_event}</div>
                             </Link>
                                 

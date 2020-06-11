@@ -29,16 +29,16 @@ export default class SingleCourse extends React.Component {
     }
 
     render() {
-        return (<div>
-           <div>Single Course</div>
+        return (<div className='course'>
+           
             
-            <div>{this.state.course}</div>
-            <div>{this.state.date}</div>
-            <div>{this.state.how_often}</div>
-            <div>{this.state.time}</div>
+            <div className='course-name'>{this.state.course}</div>
+            <div className='courses-detail'>{this.state.date}</div>
+            <div className='courses-detail'>{this.state.how_often}</div>
+            <div className='courses-detail'>{this.state.time}</div>
             
             <Link to={`/register/${this.state.id}`} >
-            <div>Register</div>
+            <div className='course-btn'>Register</div>
             </Link>
         </div>)
     }

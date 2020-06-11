@@ -32,17 +32,19 @@ export default class Course extends React.Component {
     render() {
         return (
             <div className='all-course'>
-                <div>Courses</div>
+                <h1 className='title'>Sunday School Classes</h1>
                 {this.state.allCourses.map((course, index) => {
                     return (
-                        <div  key={`jd320kd-${index}`}>
-                            <div>{course.course}</div>
-                            <div>{course.date}</div>
-                            <div>{course.how_often}</div>
-                            <div>{course.time}</div>
+                        <div className='courses' key={`jd320kd-${index}`}>
                             <Link to={`/single_course/${course.id}`} >
-                                <div>Register</div>
+                            <div className='course-name'>{course.course}</div>
                             </Link>
+                            <div className='courses-detail'>{course.date}</div>
+                            <div className='courses-detail'>{course.how_often}</div>
+                            <div className='courses-detail'>{course.time}</div>
+                            
+                            
+                            
                         </div>
                     )
                 })}
