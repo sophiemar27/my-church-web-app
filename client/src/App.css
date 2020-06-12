@@ -10,11 +10,12 @@ nav i.logo {
   left: 40px;
   position: absolute;
   color: lightskyblue;
+  border-bottom: solid 2px violet;
 }
 
 /* .zion {
-  border: violet 2px solid;
-  padding: px;
+  border: violet 1px solid;
+  padding: 0 2px;
 } */
 
 a .link-item {
