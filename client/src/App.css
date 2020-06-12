@@ -12,6 +12,11 @@ nav i.logo {
   color: lightskyblue;
 }
 
+/* .zion {
+  border: violet 2px solid;
+  padding: px;
+} */
+
 a .link-item {
   
   margin: 35px;
@@ -47,7 +52,7 @@ a {
 .all-events {
   display: flex;
   justify-content: space-evenly;
-  width: 600px;
+  width: 700px;
   flex-wrap: wrap;
   
 
@@ -91,6 +96,7 @@ a {
 
 .course-name {
   font-size: 22px;
+  color: violet;
 }
 
 .courses-detail{

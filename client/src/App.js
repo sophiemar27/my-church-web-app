@@ -26,7 +26,7 @@ function App() {
         <nav className="nav-bar">
           <Link to="/">
           <i className="material-icons logo">
-          Mount Zion
+          Mount <span className='zion'>Zion</span>
           {/* <img src='client/public/crossLogo.png'> */}
           </i>
           </Link>
