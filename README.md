@@ -1,5 +1,5 @@
 # Debre Tsion Web App
- I always want to build a fully interactive website to my church. I'm taking this opportuniuty to do that. The purpose of this app is to organize the people who are registering to Sunday school classes and different events or activities. 
+ I have always wanted to build a fully interactive website for my church. I'm taking this opportuniuty to do that. The purpose of this app is to organize the people who are registering to Sunday school classes and different events or activities. 
 
  # User Stories
  * User can see different kinds events and activities.
