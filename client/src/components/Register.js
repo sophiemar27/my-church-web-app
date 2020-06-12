@@ -90,7 +90,7 @@ export default class Register extends Component {
                     
                         <label htmlFor="phone_number"></label>
                         <input className='input'
-                            placeholder="phone number"
+                            placeholder="Phone Number"
                             type="text"
                             name="phone_number"
                             value={this.state.newStudent.phone_number}
@@ -101,7 +101,7 @@ export default class Register extends Component {
                     <div>
                         <label htmlFor="address"></label>
                         <input className='address-input'
-                            placeholder="address"
+                            placeholder="Address"
                             type="text"
                             name="address"
                             value={this.state.newStudent.address}
@@ -113,7 +113,7 @@ export default class Register extends Component {
                     <div>
                         <label htmlFor="city"></label>
                         <input className='input'
-                            placeholder="city"
+                            placeholder="City"
                             type="text"
                             name="city"
                             value={this.state.newStudent.city}
@@ -124,7 +124,7 @@ export default class Register extends Component {
                     
                         <label htmlFor="state"></label>
                         <input className='input'
-                            placeholder="state"
+                            placeholder="State"
                             type="text"
                             name="state"
                             value={this.state.newStudent.state}
@@ -135,7 +135,7 @@ export default class Register extends Component {
                     <div>
                         <label htmlFor="zip_code"></label>
                         <input className='input'
-                            placeholder="zip code"
+                            placeholder="Zipcode"
                             type="text"
                             name="zip_code"
                             value={this.state.newStudent.zip_code}
@@ -157,7 +157,7 @@ export default class Register extends Component {
                     <div>
                         <label htmlFor="gender"></label>
                         <input className='input'
-                            placeholder="sex"
+                            placeholder="Sex"
                             type="text"
                             name="gender"
                             value={this.state.newStudent.gender}

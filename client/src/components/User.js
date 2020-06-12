@@ -89,7 +89,7 @@ export default class User extends Component {
                     
                         <label htmlFor="phone_number"></label>
                         <input className='input'
-                            placeholder="phone_number"
+                            placeholder="Phone Number"
                             type="text"
                             name="phone_number"
                             value={this.state.user.phone_number}
@@ -100,7 +100,7 @@ export default class User extends Component {
                     <div>
                         <label htmlFor="address"></label>
                         <input className='address-input'
-                            placeholder="address"
+                            placeholder="Address"
                             type="text"
                             name="address"
                             value={this.state.user.address}
@@ -112,7 +112,7 @@ export default class User extends Component {
                     <div>
                         <label htmlFor="city"></label>
                         <input className='city-input'
-                            placeholder="city"
+                            placeholder="City"
                             type="text"
                             name="city"
                             value={this.state.user.city}
@@ -123,7 +123,7 @@ export default class User extends Component {
                     <div>
                         <label htmlFor="state"></label>
                         <input className='input'
-                            placeholder="state"
+                            placeholder="State"
                             type="text"
                             name="state"
                             value={this.state.user.state}
@@ -134,7 +134,7 @@ export default class User extends Component {
                     
                         <label htmlFor="zip_code"></label>
                         <input className='input'
-                            placeholder="zip_code"
+                            placeholder="Zipcode"
                             type="text"
                             name="zip_code"
                             value={this.state.user.zip_code}

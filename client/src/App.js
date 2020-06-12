@@ -24,11 +24,12 @@ function App() {
       <Router>
       
         <nav className="nav-bar">
-          {/* <Link to="/">
+          <Link to="/">
           <i className="material-icons logo">
           Hope
+          {/* <img src='client/public/crossLogo.png'> */}
           </i>
-          </Link> */}
+          </Link>
             
           
           <Link to="/home">
