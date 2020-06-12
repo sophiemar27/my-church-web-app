@@ -60,13 +60,13 @@ export default class User extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Event Registeration Form</h1>
+            <div className='enroll-form'>
+                <h1 className='title'>Event Registeration Form</h1>
 
                 <form onSubmit={this.onSubmit}>
                     <div>
                         <label htmlFor="full_name"></label>
-                        <input className='input'
+                        <input className='name-input'
                             placeholder="Full Name"
                             type="text"
                             name="full_name"
@@ -84,9 +84,9 @@ export default class User extends Component {
                             value={this.state.user.email}
                             onChange={this.onChangeUser}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="phone_number"></label>
                         <input className='input'
                             placeholder="phone_number"
@@ -99,7 +99,7 @@ export default class User extends Component {
 
                     <div>
                         <label htmlFor="address"></label>
-                        <input className='input'
+                        <input className='address-input'
                             placeholder="address"
                             type="text"
                             name="address"
@@ -111,7 +111,7 @@ export default class User extends Component {
 
                     <div>
                         <label htmlFor="city"></label>
-                        <input className='input'
+                        <input className='city-input'
                             placeholder="city"
                             type="text"
                             name="city"
@@ -129,9 +129,9 @@ export default class User extends Component {
                             value={this.state.user.state}
                             onChange={this.onChangeUser}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="zip_code"></label>
                         <input className='input'
                             placeholder="zip_code"
@@ -151,9 +151,9 @@ export default class User extends Component {
                             value={this.state.user.age}
                             onChange={this.onChangeUser}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="gender"></label>
                         <input className='input'
                             placeholder="Gender"
@@ -166,7 +166,7 @@ export default class User extends Component {
 
                     
 
-                    <input className='input' type="submit" value="Submit" />
+                    <input className='submit' type="submit" value="Submit" />
 
 
                 </form>

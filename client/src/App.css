@@ -5,14 +5,18 @@
   
 
 }
-a .link-item{
+a .link-item {
   
   margin: 35px;
-  border-right: 1px violet solid;
+  /* border-right: 1px violet solid; */
   padding: 10px;
   height: 10px;
   color: black;
 
+}
+
+a .link-item:hover {
+  border-bottom: 1px solid violet;
 }
 
 a {
@@ -106,7 +110,7 @@ a {
 }
 
 .enroll-form {
-  padding: 30px;
+  padding: 20px 40px 30px 20px;
   background-color: lightgrey;
   margin-top: 20px;
 }
@@ -125,6 +129,13 @@ a {
 }
 
 .address-input {
+  margin: 10px 0px 10px 20px ;
+  padding: 10px 30px;
+  font-size: 16px;
+  width: 420px;
+}
+
+.city-input {
   margin: 10px 0px 10px 20px ;
   padding: 10px 30px;
   font-size: 16px;
