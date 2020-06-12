@@ -61,22 +61,22 @@ export default class Register extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Student Enrollement Form</h1>
-
-                <form className='enroll-form' onSubmit={this.onSubmit}>
+            <div className='enroll-form'>
+                <h1 className='title'>Student Enrollement Form</h1>
+            
+                <form  onSubmit={this.onSubmit}>
                     <div>
                         <label htmlFor="full_name"></label>
-                        <input className='input'
+                        <input className='name-input'
                             placeholder="Full Name"
                             type="text"
                             name="full_name"
                             value={this.state.newStudent.full_name}
                             onChange={this.onChangeStudent}
                         />
+                    
                     </div>
-
-                    <div>
+                    
                         <label htmlFor="email"></label>
                         <input className='input'
                             placeholder="email"
@@ -85,22 +85,22 @@ export default class Register extends Component {
                             value={this.state.newStudent.email}
                             onChange={this.onChangeStudent}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="phone_number"></label>
                         <input className='input'
-                            placeholder="phone_number"
+                            placeholder="phone number"
                             type="text"
                             name="phone_number"
                             value={this.state.newStudent.phone_number}
                             onChange={this.onChangeStudent}
                         />
-                    </div>
+                    
 
                     <div>
                         <label htmlFor="address"></label>
-                        <input className='input'
+                        <input className='address-input'
                             placeholder="address"
                             type="text"
                             name="address"
@@ -119,9 +119,9 @@ export default class Register extends Component {
                             value={this.state.newStudent.city}
                             onChange={this.onChangeStudent}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="state"></label>
                         <input className='input'
                             placeholder="state"
@@ -130,20 +130,20 @@ export default class Register extends Component {
                             value={this.state.newStudent.state}
                             onChange={this.onChangeStudent}
                         />
+                    
                     </div>
-
                     <div>
                         <label htmlFor="zip_code"></label>
                         <input className='input'
-                            placeholder="zip_code"
+                            placeholder="zip code"
                             type="text"
                             name="zip_code"
                             value={this.state.newStudent.zip_code}
                             onChange={this.onChangeStudent}
                         />
-                    </div>
+            
 
-                    <div>
+                    
                         <label htmlFor="age"></label>
                         <input className='input'
                             placeholder="Age"
@@ -163,9 +163,9 @@ export default class Register extends Component {
                             value={this.state.newStudent.gender}
                             onChange={this.onChangeStudent}
                         />
-                    </div>
+                    
 
-                    <div>
+                    
                         <label htmlFor="grade"></label>
                         <input className='input'
                             placeholder="Grade"
@@ -176,7 +176,7 @@ export default class Register extends Component {
                         />
                     </div>
 
-                    <input className='input' type="submit" value="Submit" />
+                    <input className='submit' type="submit" value="Submit" />
 
 
                 </form>
