@@ -61,7 +61,7 @@ export default class User extends Component {
     render() {
         return (
             <div className='enroll-form'>
-                <h1 className='title'>Event Registeration Form</h1>
+                <h1 className='form-title'>Event Registeration Form</h1>
 
                 <form onSubmit={this.onSubmit}>
                     <div>

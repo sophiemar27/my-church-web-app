@@ -6,10 +6,10 @@
 
 }
 nav i.logo {
-  font-size: 55px;
+  font-size: 35px;
   left: 40px;
   position: absolute;
-  color: gray;
+  color: lightskyblue;
 }
 
 a .link-item {
@@ -64,6 +64,12 @@ a {
 .title {
   text-align: center;
 
+}
+
+.form-title {
+  text-align: center;
+  color: white;
+  font-weight: 900;
 }
 
 .courses {
@@ -126,20 +132,23 @@ a {
   margin: 10px 0px 10px 20px ;
   padding: 10px 30px;
   font-size: 16px;
+  border: none;
 }
 
 .name-input {
   margin: 10px 0px 10px 20px ;
   padding: 10px 30px;
   font-size: 16px;
-  width: 420px;
+  width: 418px;
+  border: none;
 }
 
 .address-input {
   margin: 10px 0px 10px 20px ;
   padding: 10px 30px;
   font-size: 16px;
-  width: 420px;
+  width: 418px;
+  border: none;
 }
 
 .city-input {
@@ -147,7 +156,9 @@ a {
   padding: 10px 30px;
   font-size: 16px;
   width: 420px;
+  border: none;
 }
+
 
 /* .App {
   text-align: center;
