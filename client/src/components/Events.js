@@ -35,7 +35,7 @@ export default class Event extends React.Component {
             <div className='all-events'>
                 {this.state.allEvents.map((event, index) => {
                     return (
-                        <div  key={`jd320kd-${index}`}>
+                        <div className='all-event-img' key={`jd320kd-${index}`}>
                             <Link to={`/single_event/${event.id}`} >
                             <img className='event-img'  src={event.image_url} width="230" />
                             <div>{event.type_of_event}</div>

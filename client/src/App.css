@@ -21,7 +21,7 @@ nav i.logo {
 a .link-item {
   
   margin: 35px;
-  /* border-right: 1px violet solid; */
+  border-right: 1px violet solid;
   padding: 10px;
   height: 10px;
   color: black;
@@ -29,7 +29,7 @@ a .link-item {
 }
 
 a .link-item:hover {
-  border-bottom: 1px solid violet;
+  font-weight: bold;
 }
 
 a {
@@ -53,10 +53,21 @@ a {
 .all-events {
   display: flex;
   justify-content: space-evenly;
-  width: 700px;
+  width: 960px;
   flex-wrap: wrap;
-  
+  margin: 30px 15px;
 
+}
+img {
+  width: 250px;
+  height: 150px;
+  box-shadow: 10px 10px 5px #ccc;
+  margin: 15px;
+}
+
+.single-img {
+  height: 300px;
+  width: 400px;
 }
 
 .event-img {

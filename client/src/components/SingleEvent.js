@@ -33,7 +33,7 @@ export default class SingleEvent extends React.Component {
     render() {
         return (<div className='single-event'>
            
-            <img src={this.state.image_url} width="500" />
+            <img className='single-img' src={this.state.image_url} width="500" />
             <h3 class='event-type'>{this.state.type_of_event}</h3>
             <div class='event-date'>{this.state.event_date}</div>
             <div class='event-place'>{this.state.place}</div>
