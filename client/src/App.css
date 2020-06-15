@@ -6,17 +6,28 @@
 
 }
 nav i.logo {
+  
   font-size: 35px;
   left: 40px;
   position: absolute;
-  color: lightskyblue;
-  border-bottom: solid 2px violet;
+  /* color: lightskyblue;
+  border-bottom: solid 2px violet;  */
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
 }
 
 /* .zion {
   border: violet 1px solid;
   padding: 0 2px;
 } */
+
+.main-img {
+  width: 100vw;
+  height: 100vh;
+}
 
 a .link-item {
   
@@ -51,6 +62,7 @@ a {
 }
 
 .all-events {
+  
   display: flex;
   justify-content: space-evenly;
   width: 960px;
@@ -141,8 +153,9 @@ img {
 }
 
 .enroll-form {
+  
   padding: 20px 40px 30px 20px;
-  background-color: lightgrey;
+  background-color: #dbf7fa;
   margin-top: 20px;
 }
 
@@ -176,6 +189,43 @@ img {
   width: 420px;
   border: none;
 }
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ab1c4;
+  width: 100vw;
+  height: 300px;
+}
+
+.showcase-text {
+  color: white;
+  font-size: 40px;
+  
+  align-items: center;
+  margin-top: 40px;
+  width: 600px;
+}
+
+p span .qout {
+  color: white;
+  font-size: 22px;
+  
+}
+
+.main-body {
+  background-color: #bff0f6;
+  width: 100vw;
+  height: 550px;
+}
+
+.footer {
+  width: 100vw;
+  height: 250px;
+}
+
+
 
 
 /* .App {

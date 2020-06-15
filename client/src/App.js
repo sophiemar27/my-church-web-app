@@ -24,10 +24,10 @@ function App() {
       <Router>
       
         <nav className="nav-bar">
-          <Link to="/">
+          <Link to="/home">
           <i className="material-icons logo">
-          Mount <span className='zion'>Zion</span>
-          {/* <img src='client/public/crossLogo.png'> */}
+          {/* Mount <span className='zion'>Zion</span> */}
+          <img className='logo-img' src='https://i.ytimg.com/vi/KT6YVySDQMs/hqdefault.jpg'/>
           </i>
           </Link>
             
