@@ -195,34 +195,86 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #1ab1c4;
+  
+  opacity: 0.5;
   width: 100vw;
   height: 300px;
 }
 
 .showcase-text {
   color: white;
-  font-size: 40px;
-  
+  font-size: 45px;
+  z-index: -1;
   align-items: center;
   margin-top: 40px;
-  width: 600px;
+  width: 700px;
 }
 
-p span .qout {
+.qout {
+  text-align: center;
   color: white;
   font-size: 22px;
-  
 }
 
 .main-body {
-  background-color: #bff0f6;
+  background-color: #edfafd;
   width: 100vw;
   height: 550px;
 }
 
 .footer {
   width: 100vw;
-  height: 250px;
+  height: 300px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.payment-container {
+  background-color: #1ab1c4;
+  opacity: 0.7;
+  position: absolute;
+  margin-top: 45px;
+  right: 80px;
+  border: 1px solid white;
+  height: 400px;
+  width: 360px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donation {
+  color: white;
+  background-color:#2ec89c;
+  border-radius: 7px;
+  font-size: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+.memb-payment {
+  color: white;
+  background-color:#2ec89c;
+  border-radius: 7px;
+  font-size: 35px;
+  padding: 5px;
+}
+
+.sections {
+  width: 300px;
+  margin: 25px;
+}
+
+.input[type=submit] {
+  height: 40px;
+  padding: 12px 20px;
 }
 
 

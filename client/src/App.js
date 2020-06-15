@@ -26,8 +26,8 @@ function App() {
         <nav className="nav-bar">
           <Link to="/home">
           <i className="material-icons logo">
-          {/* Mount <span className='zion'>Zion</span> */}
-          <img className='logo-img' src='https://i.ytimg.com/vi/KT6YVySDQMs/hqdefault.jpg'/>
+          
+          <img className='logo-img' src='/crossLogo.png'/>
           </i>
           </Link>
             
