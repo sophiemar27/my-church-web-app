@@ -360,6 +360,41 @@ img {
   padding: 12px 20px;
 }
 
+@media(max-width: 800px){
+  .nav-bar 
+  nav i.logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .maintitle{
+    
+    text-align: center;
+  }
+  .showcase{
+    width: 100%;
+    margin-top: 0;
+    height: 600;
+  }
+  .showcase-text{
+    
+    text-align: center;
+    font-size: 30px;
+  }
+  .main-body {
+    width: 100%;
+   
+  }
+  .footer-container
+  .sections{
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+}
 
 
 
