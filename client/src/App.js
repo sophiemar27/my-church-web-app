@@ -26,8 +26,8 @@ function App() {
         <nav className="nav-bar">
           <Link to="/home">
           <i className="material-icons logo">
-          
-          <img className='logo-img' src='/crossLogo.png'/>
+          Logo
+          {/* <img className='logo-img' src='/logo2.png'/> */}
           </i>
           </Link>
             
@@ -39,7 +39,7 @@ function App() {
             <div className="link-item">Events</div>
           </Link>
           <Link to="/course">
-            <div className="link-item">Courses</div>
+            <div className="link-item">Classes</div>
           </Link>
           <Link to="">
             <div className="link-item">Services</div>
