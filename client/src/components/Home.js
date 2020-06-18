@@ -19,7 +19,7 @@ export default class Home extends Component {
                 {/* </video>
                     </div> */}
                 <div>
-                    <p className='maintitle'>Debre Tsion Kedest Mariam Eritrean Orthodox Tewahedo Church</p>
+                    <p className='maintitle'>Debre Tsion Kedest Mariam Eritrean Orthodox Tewahedo Church Atlanta, Georgia.</p>
                 </div>
 
                 <div className='showcase'>

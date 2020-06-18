@@ -360,17 +360,32 @@ img {
   height: 40px;
   padding: 12px 20px;
 }
-  
+
+
+@media(max-width: 800px){
+  .showcase{
+    background: url('https://images.unsplash.com/photo-1555935288-ad7bad5d006b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') no-repeat;
+    height: 400px;
+  }
+}
+
+
 
 @media(max-width: 500px){
   a .link-item{
     /* border-right: none; */
-    
+    margin-top: 30px;
+    flex-direction: column;
     margin: 10px;
   
   }
 }
 
+@media(max-width: 500px){
+  nav i.logo {
+    display: none;
+   }
+}
 
 @media(max-width: 500px){
   .showcase{
@@ -382,6 +397,7 @@ img {
 @media(max-width: 500px){
   .showcase-text {
     font-size: 30px;
+    text-align: center;
   }
 }
 
