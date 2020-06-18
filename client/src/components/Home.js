@@ -23,10 +23,11 @@ export default class Home extends Component {
                 </div>
 
                 <div className='showcase'>
-                    <p className='showcase-text'>Orthodoxy is what Christ taught,
+                    <p className='showcase-text'>"Orthodoxy is what Christ taught,
                     <br />
-                    the apostles preached,
-                    <br /> and the Father Kept.  <span className='qout'> -St. Athanasius</span></p>
+                    the Apostles preached,
+                    <br /> and the Fathers Kept." 
+                    <br/> <span className='qout'> -St. Athanasius</span></p>
 
                 </div>
 
