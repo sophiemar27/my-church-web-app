@@ -15,6 +15,7 @@ import SingleEvent from './components/SingleEvent.js'
 import User from './components/User.js'
 import SingleCourse from './components/SingleCourse.js'
 import Home from './components/Home.js'
+import Services from './components/Services.js'
 
 function App() {
   return (
@@ -32,16 +33,16 @@ function App() {
           </Link>
             
           
-          <Link to="/home">
+          <Link to="/">
             <div className="link-item">Home</div>
           </Link>
           <Link to="/all_event">
             <div className="link-item">Events</div>
           </Link>
-          <Link to="/course">
+          <Link to="/courses">
             <div className="link-item">Classes</div>
           </Link>
-          <Link to="">
+          <Link to="/services">
             <div className="link-item">Services</div>
           </Link>
           
@@ -50,8 +51,9 @@ function App() {
           </nav>
        <div className='text_container'>
         <Switch>
-          <Route exact path="/home" component={Home} />  
-          <Route exact path="/course/" component={Course} />
+          <Route exact path="/" component={Home} />  
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/courses/" component={Course} />
           <Route exact path="/single_course/:courseId" component={SingleCourse} />
           <Route exact path="/register/:courseId" component={Register} />
           <Route exact path="/all_event" component={Event} />

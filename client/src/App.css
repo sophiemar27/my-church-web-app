@@ -226,12 +226,12 @@ img {
 }
  */
 .maintitle {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   color: #1cd2e3;
-  
-  
   padding: 10px;
+  font-family: 'Gruppo', cursive;
+  
 }
 
 .showcase {
@@ -257,12 +257,14 @@ img {
   line-height: 1.5rem; */
   font-size: 45px;
   color: white;
+  font-family: 'Playball', cursive;
 }
 
 .qout {
   text-align: center;
   color: white;
   font-size: 22px;
+  
 }
 
 .main-body {
@@ -359,6 +361,83 @@ img {
 .input[type=submit] {
   height: 40px;
   padding: 12px 20px;
+}
+
+.service-verse {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.weloming-verse {
+  font-size: 25px;
+  width: 600px;
+  text-align: center;
+  color: #3964f5;
+  line-height: 2rem;
+  font-family: 'Playball', cursive;
+}
+
+.service-page {
+  background-color: #edfafd;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.sevice-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+.sunday-services {
+   margin: 30px;
+   padding: 12px 30px;
+   border: 1px solid lightblue;
+   border-radius: 8px;
+   background-color: #7eadee;
+   color: #fff;
+   box-shadow: 5px 10px #ccc;
+   line-height: 1.5rem;
+   
+}
+
+.service-title {
+  text-align: center;
+
+}
+
+.services, .service-time {
+  padding: 6px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.saturday-services {
+  margin: 30px;
+  padding: 12px 20px;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  min-height: 400px;
+  background-color: #7eadee;
+  color: #fff;
+  box-shadow: 5px 10px #ccc;
+  line-height: 1.5rem;
+ 
+}
+
+.other-services {
+  margin: 30px;
+  padding: 12px 20px;
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  background-color: #7eadee;
+  color: #fff;
+  box-shadow: 5px 10px #ccc;
+  line-height: 1.5rem;
 }
 
 
