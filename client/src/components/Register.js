@@ -176,7 +176,7 @@ export default class Register extends Component {
                         />
                     </div>
 
-                    <input className='submit' type="submit" value="Submit" />
+                    <input className='submit-btn' type="submit" value="Submit" />
 
 
                 </form>

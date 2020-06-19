@@ -55,7 +55,7 @@ export default class Home extends Component {
 
                 <div className='footer-container'>
                     <div className='sections'>
-                        <h4 className='title'>Section-1</h4>
+                        <h4 className='title'>Contact Info.</h4>
                         <p>Lorem Ipsum is simply dummy text of
                         the printing and typesetting industry.
                         Lorem Ipsum has been the industry's
@@ -66,7 +66,7 @@ export default class Home extends Component {
                     </div>
 
                     <div className='sections'>
-                        <h4 className='title'>Section-2</h4>
+                        <h4 className='title'>Important Sites</h4>
                         <p>Lorem Ipsum is simply dummy text of
                         the printing and typesetting industry.
                         Lorem Ipsum has been the industry's

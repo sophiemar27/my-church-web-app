@@ -100,8 +100,9 @@ img {
 
 .form-title {
   text-align: center;
-  color: white;
+  color: #3964f5;
   font-weight: 900;
+  font-family: 'Gruppo', cursive;
 }
 
 .courses {
@@ -225,6 +226,21 @@ img {
   opacity: 0.7;
 }
  */
+.submit-btn {
+  background-color: #3964f5;
+  width: 315px;
+  padding: 12px 20px;
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.submit-btn:hover {
+  padding: 15px 25px;
+  
+}
 .maintitle {
   font-size: 30px;
   text-align: center;
@@ -504,6 +520,68 @@ img {
     margin-top: 30px;
   }
 }
+
+@media(max-width: 500px){
+  .weloming-verse{
+    width: 400px;
+  }
+}
+
+@media(max-width: 500px){
+  .single-img{
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+  }
+}
+
+@media(max-width: 500px){
+  .event-description{
+    width: 300px;
+    margin-left: 100px;
+    line-height: 1.8rem;
+  }
+}
+
+@media(max-width: 500px){
+  .event-type,
+  .event-date,
+  .event-place,
+  .event-cost,
+  .course-btn
+  {
+    margin: 10px 10px 10px 100px;
+  }
+}
+
+@media(max-width: 500px){
+  .enroll-form{
+    width: 350px;
+   }
+}
+
+@media(max-width: 500px){
+  .name-input,
+  .address-input,
+  .city-input,
+  .input{
+    width: 250px;
+   }
+}
+
+@media(max-width: 500px){
+  .submit-btn{
+    margin-left: 25px;
+   }
+}
+
+
+
+
+
+
+
+
 
 
 

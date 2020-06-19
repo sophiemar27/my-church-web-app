@@ -166,7 +166,7 @@ export default class User extends Component {
 
                     
 
-                    <input className='submit' type="submit" value="Submit" />
+                    <input className='submit-btn' type="submit" value="Submit" />
 
 
                 </form>
