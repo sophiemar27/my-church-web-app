@@ -95,6 +95,7 @@ img {
 
 .title {
   text-align: center;
+  color: #3964f5;
 
 }
 
@@ -116,28 +117,60 @@ img {
 
 .course {
   border: gray 2px solid;
+  padding-bottom: 40px;
   margin: 20px;
-  width: 500px;
+  width: 400px;
   height: 130px;
   padding-left: 15px;
 }
 
+
+
 .course-name {
+  
   font-size: 22px;
-  color: violet;
+  border: 1px solid #3964f5;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 6px;
+  
 }
+
+.single-course-name{
+  font-size: 22px;
+  border: 1px solid #3964f5;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.course-name:hover{
+  background-color: #3964f5;
+  color: #fff;
+}
+
+
 
 .courses-detail{
   color: #242424;
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .course-btn {
   color: white;
   padding: 7px 15px;
-  background-color: violet;
+  background-color: #3964f5;
+  border-radius: 5px;
   width: 60px;
   right: 30px;
+  
+}
+
+.course-btn:hover{
+  padding: 10px;
 }
 
 .event-description {
@@ -245,6 +278,7 @@ img {
   font-size: 30px;
   text-align: center;
   color: #1cd2e3;
+  font-weight: bold;
   padding: 10px;
   font-family: 'Gruppo', cursive;
   
@@ -370,13 +404,54 @@ img {
 }
 
 .sections {
-  width: 300px;
-  margin: 25px;
+  width: 350px;
+  margin: 0 0 35px 20px;
 }
+
+.contact-info-title {
+  color: #3964f5;
+}
+
+.contact-info {
+  color: gray;
+  font-size: 18px;
+  line-height: 2rem;
+  
+}
+
+.important-sites {
+  line-height: 2rem;
+  font-size: 17px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.important-sites:hover {
+  color: #3964f5;
+ 
+}
+
+
 
 .input[type=submit] {
   height: 40px;
   padding: 12px 20px;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: #7eadee;
+  color: #fff;
+}
+
+.copy-right-p {
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
 }
 
 .service-verse {
@@ -455,6 +530,7 @@ img {
   box-shadow: 5px 10px #ccc;
   line-height: 1.5rem;
 }
+
 
 
 @media(max-width: 800px){
@@ -572,6 +648,13 @@ img {
 @media(max-width: 500px){
   .submit-btn{
     margin-left: 25px;
+   }
+}
+
+@media(max-width: 500px){
+  .courses,
+  .course{
+    width: 350px;
    }
 }
 

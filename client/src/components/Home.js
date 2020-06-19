@@ -55,28 +55,21 @@ export default class Home extends Component {
 
                 <div className='footer-container'>
                     <div className='sections'>
-                        <h4 className='title'>Contact Info.</h4>
-                        <p>Lorem Ipsum is simply dummy text of
-                        the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
-                            </p>
+                        <h3 className='contact-info-title'>Contact Info.</h3>
+                        <div className='contact-info'>3435 Midway Rd.</div>
+                        <div className='contact-info'>Decatur, GA 30032</div>
+                        <div className='contact-info'>email@gmail.com</div>
+                        <div className='contact-info'>(000) 000-0000</div>
                     </div>
 
                     <div className='sections'>
-                        <h4 className='title'>Important Sites</h4>
-                        <p>Lorem Ipsum is simply dummy text of
-                        the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book.
-                            </p>
+                        <h3 className='contact-info-title'>Important Sites</h3>
+                        <div><a className='important-sites' href='https://lisantewahdo.org/'>Eritrean Orthodox Tewahedo Patriarchate</a></div>
+                        <div><a className='important-sites' href='https://eritreantewahdo.org/'>Eritrean Orthodox Tewahedo Church Diocese of U.S.A and Canada</a></div>
+                        <div><a className='important-sites' href='https://english.eritreantewahdo.org/'>Eritrean Orthodox Tewahedo Church Diocese of U.S.A and Canada Web Site In English</a></div>
                     </div>
 
-                    <div className='sections'>
+                    {/* <div className='sections'>
                         <h4 className='title'>Section-3</h4>
                         <p>Lorem Ipsum is simply dummy text of
                         the printing and typesetting industry.
@@ -85,8 +78,14 @@ export default class Home extends Component {
                         when an unknown printer took a galley of
                         type and scrambled it to make a type specimen book.
                             </p>
-                    </div>
+                    </div> */}
+
+                    
                 </div>
+                <footer className='copy-right'>
+                        <p className='copy-right-p'> Debre Tsion Kedest Mariam,  Copyright &copy; 2020</p>
+
+                    </footer>
             </div>
 
         )

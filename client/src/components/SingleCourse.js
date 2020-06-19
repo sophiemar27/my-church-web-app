@@ -32,7 +32,7 @@ export default class SingleCourse extends React.Component {
         return (<div className='course'>
            
             
-            <div className='course-name'>{this.state.course}</div>
+            <div className='single-course-name'>{this.state.course}</div>
             <div className='courses-detail'>{this.state.date}</div>
             <div className='courses-detail'>{this.state.how_often}</div>
             <div className='courses-detail'>{this.state.time}</div>
