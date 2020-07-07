@@ -30,8 +30,9 @@ function App() {
         <nav className="nav-bar">
           <Link to="/home">
           <i className="material-icons logo">
-          Logo
-          {/* <img className='logo-img' src='/logo2.png'/> */}
+
+          {/* Logo */}
+          <img className='logo-img' src='https://cdn.iconscout.com/icon/premium/png-256-thumb/sevanavank-monastery-1726840-1468229.png'/>
           </i>
           </Link>
             
