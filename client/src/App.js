@@ -16,6 +16,9 @@ import User from './components/User.js'
 import SingleCourse from './components/SingleCourse.js'
 import Home from './components/Home.js'
 import Services from './components/Services.js'
+import Success from './components/Success.js'
+import Cancel from './components/Cancel.js'
+
 
 function App() {
   return (
@@ -59,6 +62,8 @@ function App() {
           <Route exact path="/all_event" component={Event} />
           <Route exact path="/single_event/:eventId" component={SingleEvent} />
           <Route exact path="/event_register/:eventId" component={User} />
+          <Route exact path="/success" component={Success} />
+          <Route exact path="/cancel" component={Cancel} />
         </Switch>
       </div>
       </Router>
