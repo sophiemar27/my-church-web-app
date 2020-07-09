@@ -58,8 +58,8 @@ export default class Home extends Component {
                         <h3 className='contact-info-title'>Contact Info.</h3>
                         <div className='contact-info'>3435 Midway Rd.</div>
                         <div className='contact-info'>Decatur, GA 30032</div>
-                        <div className='contact-info'>email@gmail.com</div>
-                        <div className='contact-info'>(000) 000-0000</div>
+                        <div className='contact-info'>kidist.mariam.eoc@gmail.com</div>
+                        <div className='contact-info'>(770) 873-3068</div>
                     </div>
 
                     <div className='sections'>

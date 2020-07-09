@@ -28,7 +28,7 @@ function App() {
       <Router>
       
         <nav className="nav-bar">
-          <Link to="/home">
+          <Link to="/">
           <i className="material-icons logo">
 
           {/* Logo */}
