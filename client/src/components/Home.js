@@ -90,7 +90,7 @@ export default class Home extends Component {
 
                 </div>
                 <footer className='copy-right'>
-                    <p className='copy-right-p'> Debre Tsion Kedest Mariam,  Copyright &copy; 2020</p>
+                    <p className='copy-right-p'> Debre Tsion Kidest Mariam Atlanta, GA,  Copyright &copy; 2020.</p>
 
                 </footer>
             </div>
