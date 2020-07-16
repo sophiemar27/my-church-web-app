@@ -32,7 +32,9 @@ export default class Event extends React.Component {
 
     render() {
         return (
+
             <div className='all-events'>
+            <h2 className='admin-message'>Due To COVID-19, No Events Are Scheduled.</h2>
                 {this.state.allEvents.map((event, index) => {
                     return (
                         <div className='all-event-img' key={`jd320kd-${index}`}>

@@ -64,6 +64,11 @@ a {
   width: 500px;
 }
 
+.admin-message {
+  color: red;
+
+}
+
 .all-events {
   
   display: flex;
@@ -389,7 +394,7 @@ img {
   border-radius: 7px;
 }
 
-.memb-payment {
+.subscribe-btn {
   /* color: white;
   background-color:#2ec89c;
   font-size: 35px;
