@@ -45,7 +45,7 @@ export default class Home extends Component {
                     </div>
 
                     <div className='about-container'>
-                        <h1 className='title'>Who We Are</h1>
+                        <h1 className='title'>Who We Are?</h1>
                         <p className='about-p'>We are located in Decatur, Georgia—just a few miles outside of Atlanta. 
                         Debre Tsion Kidest Mariam Church is an Eritrean Orthodox Tewahedo Church established in 2008. 
                         Here at Debre Tsion Kidest Mariam, 
